@@ -1,4 +1,4 @@
-public class GameOfLife1 {
+public class GameOfLife{
 
     public static void main(String[] args) {
         String fileName = args[0];
