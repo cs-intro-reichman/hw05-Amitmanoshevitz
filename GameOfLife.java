@@ -13,6 +13,7 @@ public class GameOfLife{
     private static void test3(String fileName, int Ngen) {
         int[][] board = read(fileName);
         int gen = Ngen;
+		
         for (int gen1 = 0; gen1 < gen; gen1++) {
             System.out.println("Generation " + gen1 + ":");
             print(board);
@@ -97,8 +98,8 @@ public class GameOfLife{
                 System.out.printf("%3d", arr[i][j]);
             }
             System.out.println();
-        }
     }
+ }
 
     public static void show(int[][] board) {
     }
